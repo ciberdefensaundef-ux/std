@@ -442,6 +442,6 @@ SELECT ROUND(AVG(defensa_millones_usd), 2) AS gasto_militar_promedio
 - **Imágenes de evidencia:** las capturas de pantalla referenciadas (`img/p1-respuesta.PNG` a `img/p10-respuesta.PNG`) deben alojarse en el subdirectorio `img/` relativo a este archivo para su correcta visualización en repositorios Git.
 
 ## Recursos
-- base de datos en formato SQLite:
-- base de datos en formato MySQL:
-- base de datos en línea de la cátedra: 
+- base de datos en formato SQLite: [defensa_fadena.sqlite](recursos/defensa_fadena.sqlite)
+- base de datos en formato MySQL: [defensa_fadena_mysql_mariadb.sql](recursos/defensa_fadena_mysql_mariadb.sql)
+- base de datos en línea de la cátedra: [https://fadena-sql.fadena.workers.dev/](https://fadena-sql.fadena.workers.dev/)
