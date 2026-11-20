@@ -13,6 +13,7 @@ Resolución personal del Trabajo Práctico 2: consultas de solo lectura sobre la
 3. [Modelo de datos](#modelo-de-datos)
 4. [Ejercicios](#ejercicios)
 5. [Observaciones sobre los datos](#observaciones-sobre-los-datos)
+6. [Recursos](#recursos)
 
 ## Resumen de respuestas
 
@@ -577,3 +578,8 @@ SELECT p.nombre
 - **Solo dos países operadores:** `incidentes.id_pais_operador` contiene únicamente Ukraine y Russia, lo que limita el alcance de los ejercicios 6 y 10.
 - **Fechas:** `fecha` es texto `YYYY-MM-DD` (sin hora), con rango del 2022-03-19 al 2025-08-21.
 - **Dominio con error tipográfico:** `postlmg.cc` en la tabla `fuentes`.
+
+## Recursos
+- base de datos en formato SQLite: [defensa_fadena.sqlite](recursos/defensa_fadena.sqlite)
+- base de datos en formato MySQL: [defensa_fadena_mysql_mariadb.sql](recursos/defensa_fadena_mysql_mariadb.sql)
+- base de datos en línea de la cátedra: [https://fadena-sql.fadena.workers.dev/](https://fadena-sql.fadena.workers.dev/)
