@@ -13,6 +13,7 @@ Resolución personal del Trabajo Práctico 1: consultas de solo lectura sobre la
 3. [Modelo de datos](#modelo-de-datos)
 4. [Ejercicios](#ejercicios)
 5. [Observaciones sobre los datos](#observaciones-sobre-los-datos)
+6. [Recursos](#recursos)
 
 ## Resumen de respuestas
 
@@ -439,3 +440,8 @@ SELECT ROUND(AVG(defensa_millones_usd), 2) AS gasto_militar_promedio
 - **Naturaleza de `resumen_diario`:** almacena cortes acumulados por fecha (`destruidos`, `total`, etc.) junto con sus deltas diarios (`var_destruidos`, `var_total`). Para agregaciones en rangos de tiempo siempre deben sumarse las columnas `var_*`.
 - **Formato temporal estándar:** el campo `fecha` se almacena como texto en formato ISO `YYYY-MM-DD` (sin componente horario), con cobertura desde `2022-03-19` hasta `2025-08-21`, lo que permite realizar comparaciones directas con operadores relacionales (`>`, `<`, `BETWEEN`).
 - **Imágenes de evidencia:** las capturas de pantalla referenciadas (`img/p1-respuesta.PNG` a `img/p10-respuesta.PNG`) deben alojarse en el subdirectorio `img/` relativo a este archivo para su correcta visualización en repositorios Git.
+
+## Recursos
+- base de datos en formato SQLite:
+- base de datos en formato MySQL:
+- base de datos en línea de la cátedra: 
